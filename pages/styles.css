@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+* {
+  outline: 1px solid red;
+}
+
+:root {
+  --text-black: #37373F;
+  --text-grey: #B3B3B3;
+}
+
+.body {
+  max-width: 1920px;
+  width: 100%;
+  font-family: 'Montserrat';
+}
+
+.header {
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.header__phone {
+  margin: 0;
+  padding: 0;
+  color: var(--text-black);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc((17/14)*100%);
+}
+
+.header__phone_colored {
+  color: var(--text-grey);
+}
+
+.main {}
+
+.footer {}
