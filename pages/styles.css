@@ -90,5 +90,42 @@
   opacity: .5;
 }
 
+.section2 {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section2__lc {
+  max-width: 549px;
+}
+
+.section2__title {
+  margin: 0;
+  padding: 0;
+}
+
+.section2__text {
+  margin: 0;
+  padding: 0;
+}
+
+.section2__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section2__list-element {
+  display: flex;
+  gap: 10px;
+}
+
+.section2__list-img {
+  width: 40px;
+}
+
+.section2__list-text {}
+
 
 .footer {}
